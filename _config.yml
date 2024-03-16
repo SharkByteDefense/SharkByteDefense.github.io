@@ -1,7 +1,8 @@
 # Site Settings
-name: Leaked Intel
-title: Leaked Intel
-description: Lorum Description
+name: APT Intel
+title: APT Intel | A blog for Advanced Persistence Intelligence
+description: Jekflix is a template for Jekyll inspired by Netflix and made by
+  Thiago Rossener.
 tags:
   - blog
   - template
@@ -18,7 +19,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: help@leakedintel.com
+email: Daniel.Elizondo.Sec@gmail.com
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
@@ -28,7 +29,7 @@ formspree_form_id: formspree_form_id
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: LeakedIntel
+github_username: github_username
 facebook_username: facebook_username
 twitter_username: twitter_username
 instagram_username: instagram_username
@@ -37,7 +38,7 @@ medium_username: medium_username
 
 
 # Posts Settings
-show_time_bar: true
+show_time_bar: false
 show_modal_on_exit: false
 show_modal_on_finish_post: true
 two_columns_layout: true
@@ -92,6 +93,11 @@ plugins:
 
 # Exclude my node related stuff
 exclude: [
+  'docs/',
+  'vendor/',
+  'LICENSE',
+  'CHANGELOG.md',
+  'jekflix.gemspec',
   'package.json',
   'package-lock.json',
   'src',
